@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Site Blocker</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <h1>Configurez l'extension</h1>
+    <label for="blockedSites">Sites à bloquer (séparés par des virgules):</label>
+    <input type="text" id="blockedSites" placeholder="instagram.com, youtube.com">
+    <br><br>
+    <label for="blockTime">Heure de blocage (ex : 20 pour 20h00):</label>
+    <input type="number" id="blockTime" min="0" max="23">
+    <button id="saveSettings">Sauvegarder</button>
+</body>
+<script src="popup.js"></script>
+
+</html>
